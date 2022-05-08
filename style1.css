@@ -1,0 +1,177 @@
+                                /* @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Poppins', sans-serif
+            }
+            
+            body {
+                position: relative;
+                min-height: 100%;
+                width: 100%;
+                overflow: hidden;
+            }
+            
+            .sidebar {
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                height: 100%;
+                width: 210px;
+                background-color: black;
+            }
+            
+            .sidebar .brand-view {
+                /* border: 1px solid blue; 
+                background-color: lightgrey;
+                color: black;
+            }
+            
+            .sidebar .brand-view .logo {
+                width: 100%;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                /* border: 1px solid grey; 
+                /* background-color: yellow; 
+                position: relative;
+            }
+            
+            .sidebar .brand-view .logo .logo-name,
+            .sidebar .brand-view .logo .logo-name a {
+                font-size: 25px;
+                color: black;
+                font-weight: 50px;
+                position: relative;
+                display: flex;
+                margin: 0 auto;
+                text-decoration: none;
+            }
+            /* .sidebar #btn {
+                                position: absolute;
+                                left: 90%;
+                                height: 50px;
+                                width: 50px;
+                                color: black;
+                                line-height: 50px;
+                                top: 2px;
+                                text-align: center;
+                                /* border: 1px solid orange;
+                
+                transform: translateX(-50%);
+            }
+            */
+                                /* css for the list item 
+            
+            .sidebar ul {
+                margin-top: 20px;
+            }
+            
+            .sidebar ul li {
+                position: relative;
+                height: 50px;
+                line-height: 50px;
+                width: 100%;
+                margin: 0 -20px;
+                list-style: none;
+            }
+            /* .sidebar ul li .tooltip {
+                                position: absolute;
+                                height: 35px;
+                                top: 122px;
+                                width: 100px;
+                                background: #fff;
+                                box-shadow: 0 5px 1 rgba(0, 0, 0, 0.2);
+                                transform: translateX(-50%);
+                            } 
+            
+            .sidebar ul li a {
+                display: flex;
+                color: #fff;
+                align-items: center;
+                text-decoration: none;
+                border-radius: 10px;
+                transition: all 0.1s ease;
+            }
+            
+            .sidebar ul li a:hover {
+                color: #fff;
+                background-color: blue;
+            }
+            
+            .sidebar ul li a i {
+                height: 50px;
+                min-width: 30px;
+                border-radius: 12px;
+                line-height: 50px;
+                margin-left: 5px;
+            } */
+                                /* Main content css start */
+                                
+                                .sidebar {
+                                    margin-top: 0px;
+                                    margin-left: -12px;
+                                    height: 100vh;
+                                    display: relative;
+                                }
+                                
+                                .sidebar .brand-view .logo {
+                                    width: 100%;
+                                    height: 50px;
+                                    display: flex;
+                                    position: relative;
+                                    align-items: center;
+                                    margin: 0 auto;
+                                    background-color: rgb(29, 29, 214);
+                                    ;
+                                    justify-content: center;
+                                    /* border: 1px solid red; */
+                                }
+                                
+                                .sidebar .brand-view .logo .logo-name {
+                                    font-size: 25px;
+                                    font-weight: 30px;
+                                }
+                                
+                                .sidebar .brand-view .logo .logo-name a {
+                                    color: #fff;
+                                    text-decoration: none;
+                                    box-shadow: inset;
+                                }
+                                
+                                .sidebar ul {
+                                    margin: 12px -30px;
+                                    position: relative;
+                                    list-style: none;
+                                    justify-content: center;
+                                }
+                                
+                                .sidebar ul li {
+                                    height: 50px;
+                                    line-height: 50px;
+                                    border-radius: 8px;
+                                    /* border: 1px solid yellow; */
+                                }
+                                
+                                .sidebar ul li:hover {
+                                    background-color: blue;
+                                }
+                                
+                                .sidebar ul li a {
+                                    text-decoration: none;
+                                    font-size: 20px;
+                                    color: #fff;
+                                }
+                                
+                                .sidebar ul li i {
+                                    margin: 10px;
+                                    height: 20px;
+                                    line-height: 20px;
+                                }
+                                
+                                .card .card-body a {
+                                    text-decoration: none;
+                                    font-size: 20px;
+                                    font-weight: 20px;
+                                }
